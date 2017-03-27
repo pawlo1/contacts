@@ -16,7 +16,7 @@ function onError(contactError) {
  
 
 var options      = new ContactFindOptions();
-options.filter   = "*";
+options.filter   = "";
 options.multiple = true;
 options.desiredFields = [navigator.contacts.fieldType.id];
 options.hasPhoneNumber = true;
